@@ -1,5 +1,5 @@
-import GetAll from "./Pages/GetAll"
-import Insert from "./Pages/Insert"
+import GetAll from "./components/GetAll"
+import Insert from "./components/Insert"
 
 function App() {
  

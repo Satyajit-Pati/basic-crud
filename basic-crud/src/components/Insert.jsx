@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import axios from 'axios';
 
 function Insert() {
@@ -11,7 +11,7 @@ function Insert() {
   }
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+   // e.preventDefault();
     await axios.post('http://localhost:8080/students', students);
     alert('Student added successfully');
     setStudents({name: '', email: ''});
